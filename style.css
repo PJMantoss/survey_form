@@ -1,8 +1,13 @@
 div {
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-#title {}
+#title {
+    margin: auto;
+}
 
 #survey-form {
     display: flex;
