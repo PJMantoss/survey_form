@@ -1,3 +1,9 @@
+div {
+    margin: auto;
+}
+
+#title {}
+
 #survey-form {
     display: flex;
     flex-direction: column;
