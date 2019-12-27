@@ -38,14 +38,13 @@
         >
 
         <label for="dropdown">Which Option best describes your current role?</label>
-        <input list="dropdown">
-        <datalist id="dropdown">
-            <option value="Student">
-            <option value="Full Time Job">
-            <option value="Full Time Learner">
-            <option value="Prefer not to say">
-            <option value="Other">
-        </datalist>
+        <select id="dropdown">
+            <option value="Student">Student</option>
+            <option value="Full Time Job" selected>Full Time Job</option>
+            <option value="Full Time Learner">Full Time Learner</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+            <option value="Other">Other</option>
+        </select>
 
         <input type="submit">
     </form>
