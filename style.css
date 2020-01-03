@@ -1,3 +1,9 @@
+body {
+    background-image: url("https://i.picsum.photos/id/1029/4887/2759.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 div {
     display: flex;
     flex-direction: column;
@@ -9,9 +15,15 @@ div {
     margin: auto;
 }
 
+#description {
+    margin: auto;
+}
+
 #survey-form {
     display: flex;
     flex-direction: column;
     width: 800px;
     margin: auto;
+    background-color: navy;
+    opacity: 0.9;
 }
