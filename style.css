@@ -3,7 +3,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background: rgba(101, 159, 247, 0);
 }
 div {
     display: flex;
