@@ -3,6 +3,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background: rgba(101, 159, 247, 0);
 }
 div {
     display: flex;
@@ -24,6 +25,6 @@ div {
     flex-direction: column;
     width: 800px;
     margin: auto;
-    background-color: navy;
+    background-color: midnightblue;
     opacity: 0.9;
 }
