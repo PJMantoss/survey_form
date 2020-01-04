@@ -114,6 +114,29 @@ div {
     padding-bottom: 10px;
 }
 
+.radios{
+    width: 80%;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.radios #radio-label {
+    padding-bottom: 10px;
+}
+
+.radios #definitely{
+    padding: 10px;
+}
+
+.radios #maybe{
+    padding: 10px;
+}
+
+.radios #not-sure{
+    padding: 10px;
+}
+
 .fav-feature{
     width: 80%;
     margin: auto;
@@ -121,18 +144,21 @@ div {
     padding-bottom: 15px;
 }
 
+.fav-feature #fav-label {
+    padding-bottom: 10px;
+}
+
 .checkboxes{
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 10px;
     margin: auto;
     width: 80%;
 }
 
-#definitely{}
-
-#maybe{}
-
-#not-sure{}
+.checkboxes #check{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 .comment-area{
     padding-top: 5px;
