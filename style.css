@@ -136,29 +136,34 @@ div #description {
 }
 
 .role #role-label{
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .radios{
     width: 80%;
     margin: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.radios #radio-label {
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.radios #definitely{
+.radios .radio-btn {
+    display: inline-block;
+}
+
+.radios #radio-label {
+    padding-bottom: 5px;
+}
+
+.radios .radio-btn #definitely{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.radios .radio-btn #maybe{
     padding: 10px;
 }
 
-.radios #maybe{
-    padding: 10px;
-}
-
-.radios #not-sure{
+.radios .radio-btn #not-sure{
     padding: 10px;
 }
 
