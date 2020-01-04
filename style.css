@@ -63,32 +63,80 @@ div {
     margin: auto;
     background-color: midnightblue;
     opacity: 0.9;
+    border-radius: 3px;
 }
 
 #name-label {
     padding-left: 70px;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 10px; 
 }
 
 #name{
     width: 80%;
-    border-radius: 6px;
+    border-radius: 4px;
     margin: auto;
 }
 
-#email-label {}
+#email-label {
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 10px; 
+}
 
-#email{}
+#email{
+    width: 80%;
+    border-radius: 4px;
+    margin: auto;
+}
 
-#number-label {}
+#number-label {
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 10px; 
+}
 
-#number{}
+#number{
+    width: 80%;
+    border-radius: 4px;
+    margin: auto;
+}
 
-#dropdown {}
+#dropdown {
+    width: 80%;
+    border-radius: 4px;
+    margin: auto;
+}
 
 #definitely{}
 
 #maybe{}
 
 #not-sure{}
+
+.comment-area{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: auto;
+    width: 80%;
+}
+
+#comment-label {
+    padding-bottom: 10px;
+}
+
+#comment{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.submit-btn{
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+
+#submit{
+    width: 80%;
+    border-radius: 4px;
+    margin: auto;
+}
