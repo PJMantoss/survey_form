@@ -106,6 +106,15 @@ div {
     width: 80%;
     border-radius: 4px;
     margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.checkboxes{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: auto;
+    width: 80%;
 }
 
 #definitely{}
@@ -139,4 +148,6 @@ div {
     width: 80%;
     border-radius: 4px;
     margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
