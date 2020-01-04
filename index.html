@@ -19,6 +19,7 @@
             type="text" 
             id="name" 
             placeholder="Enter your name"
+            required
         >
 
         <label for="email" id="email-label">Email</label>
@@ -26,7 +27,6 @@
             type="email" 
             id="email" 
             placeholder="Enter your email" 
-            pattern=""
             required
         >
 
@@ -43,7 +43,7 @@
         <div class="role">
             <label for="dropdown" id="role-label">Which Option best describes your current role?</label>
             <select id="dropdown">
-                <option value="Select current role">Select current role</option>
+                <option value="Select current role" disabled>Select current role</option>
                 <option value="Student">Student</option>
                 <option value="Full Time Job" selected>Full Time Job</option>
                 <option value="Full Time Learner">Full Time Learner</option>
@@ -72,7 +72,7 @@
        <div class="fav-feature">
             <label for="dropdown" id="fav-label">What is your favorite feature of freeCodeCamp?</label>
             <select id="dropdown">
-                <option value="Select an option">Select an option</option>
+                <option value="Select an option" disabled>Select an option</option>
                 <option value="Challenges">Challenges</option>
                 <option value="Projects">Projects</option>
                 <option value="Community" selected>Community</option>
@@ -140,8 +140,8 @@
 
         
         <div class="comment-area">
-            <label for="comments" id="comment-label">Any Comments or Suggestions?</label>
-            <textarea name="comments" id="comment" cols="30" rows="10"></textarea>
+            <p id="comment-label">Any Comments or Suggestions?</p>
+            <textarea  rows="10" cols="1" placeholder="Enter your comment here..."></textarea>
         </div>
          
         <div class="submit-btn">

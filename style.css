@@ -193,10 +193,10 @@ div #description {
 }
 
 #comment-label {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
-#comment{
+.comment-area textarea{
     width: 100%;
 }
 
@@ -206,7 +206,7 @@ div #description {
     width: 80%;
 }
 
-#submit{
+.submit-btn #submit{
     width: 100%;
     border-radius: 4px;
     margin: auto;
@@ -216,4 +216,11 @@ div #description {
     color: rgb(255, 255, 255);
     cursor: pointer;
     border: none;
+    font-size: 16px;
+}
+
+.submit-btn #submit:hover {
+    background-color: rgb(226, 79, 26);
+    color: white;
+    transform: scale(1.05);
 }
