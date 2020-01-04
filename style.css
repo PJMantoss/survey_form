@@ -58,17 +58,32 @@ div {
 #survey-form {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 50%;
     margin: auto;
     background-color: midnightblue;
     opacity: 0.9;
 }
 
-#name-label {}
+#name-label {
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 10px; 
+}
+
+#name{
+    width: 80%;
+    border-radius: 6px;
+    margin: auto;
+}
 
 #email-label {}
 
+#email{}
+
 #number-label {}
+
+#number{}
 
 #dropdown {}
 
