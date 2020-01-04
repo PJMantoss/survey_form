@@ -114,6 +114,17 @@ div {
     padding-bottom: 10px;
 }
 
+.role{
+    width: 80%;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.role #role-label{
+    padding-bottom: 10px;
+}
+
 .radios{
     width: 80%;
     margin: auto;
