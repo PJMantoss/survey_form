@@ -69,45 +69,56 @@ div {
 #name-label {
     padding-left: 70px;
     padding-top: 25px;
-    padding-bottom: 10px; 
+    padding-bottom: 5px; 
 }
 
 #name{
     width: 80%;
     border-radius: 4px;
     margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #email-label {
     padding-left: 70px;
     padding-top: 20px;
-    padding-bottom: 10px; 
+    padding-bottom: 5px; 
 }
 
 #email{
     width: 80%;
     border-radius: 4px;
     margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #number-label {
     padding-left: 70px;
     padding-top: 20px;
-    padding-bottom: 10px; 
+    padding-bottom: 5px; 
 }
 
 #number{
     width: 80%;
     border-radius: 4px;
     margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #dropdown {
-    width: 80%;
     border-radius: 4px;
-    margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.fav-feature{
+    width: 80%;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .checkboxes{
