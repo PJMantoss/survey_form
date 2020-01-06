@@ -215,12 +215,12 @@ textarea{
     padding-top: 15px;
     padding-bottom: 60px;
     width: 80%;
+    margin: auto;
 }
 
-.submit-btn #submit{
+#submit{
     width: 100%;
     border-radius: 4px;
-    margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: rgb(72, 129, 72);
@@ -230,7 +230,7 @@ textarea{
     font-size: 16px;
 }
 
-.submit-btn #submit:hover {
+#submit:hover {
     background-color: rgb(226, 79, 26);
     color: white;
     transform: scale(1.05);
