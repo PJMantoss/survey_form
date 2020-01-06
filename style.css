@@ -54,11 +54,11 @@ div {
     padding-bottom: 25px;
 }
 
-div #title {
+#title {
     margin: auto;
 }
 
-div #description {
+#description {
     margin: auto;
     padding-top: 10px;
     font-size: 20px;
@@ -132,10 +132,10 @@ div #description {
     width: 80%;
     margin: auto;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 2px;
 }
 
-.role #role-label{
+#role-label{
     padding-bottom: 5px;
 }
 
@@ -150,31 +150,33 @@ div #description {
     display: inline-block;
 }
 
-.radios #radio-label {
+#radio-label {
+    padding-bottom: 1px;
+}
+
+#definitely{
+    padding-right: 10px;
     padding-bottom: 5px;
 }
 
-.radios .radio-btn #definitely{
+#maybe{
     padding-right: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
-.radios .radio-btn #maybe{
-    padding: 10px;
-}
-
-.radios .radio-btn #not-sure{
-    padding: 10px;
+#not-sure{
+    padding-right: 10px;
+    padding-bottom: 5px;
 }
 
 .fav-feature{
     width: 80%;
     margin: auto;
-    padding-top: 15px;
+    padding-top: 2px;
     padding-bottom: 15px;
 }
 
-.fav-feature #fav-label {
+#fav-label {
     padding-bottom: 10px;
 }
 
@@ -185,7 +187,11 @@ div #description {
     width: 80%;
 }
 
-.checkboxes #check{
+.check-label {
+    padding-bottom: 10px;
+}
+
+#check{
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -201,7 +207,7 @@ div #description {
     padding-bottom: 5px;
 }
 
-.comment-area textarea{
+textarea{
     width: 100%;
 }
 
